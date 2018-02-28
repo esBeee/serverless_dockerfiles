@@ -1,8 +1,9 @@
-# Dockerfiles for serverless framework
+# Dockerfiles for developing with the serverless framework, AWS lambda and node.js or python
 
 The resulting docker images provide
 
 - nodejs
+- python
 - npm
 - aws cli
 - serverless
