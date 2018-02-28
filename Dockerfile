@@ -1,4 +1,4 @@
-FROM node:6.10
+FROM node:9.6.1
 
 # Installing python and pip as the latter is the documented way to install the
 # AWS CLI.
@@ -19,4 +19,4 @@ RUN apt-get update -qq && \
     apt-get clean
 
 # Install serverless.
-RUN npm install -g serverless@1.12.1
+RUN npm install -g serverless@1.26.1
